@@ -1,7 +1,7 @@
 ﻿---
 title: "Myfirstpost"
 date: 2025-08-19T11:17:34+09:00
-draft: true
+draft: false
 authors: ["이경민"]   # 기본값, 각자 바꿔 쓰기
 tags: ["Study"]
 categories: []
