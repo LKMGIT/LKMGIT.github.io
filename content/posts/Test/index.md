@@ -18,13 +18,18 @@ cover:
 
 ## 글 작성 방법
 
-hugo new --kind post posts/파일명/index.md 로 생성 후
-index.md 수정 
+만약 로컬 환경에 hugo가 설치 되어 있다면
 
+1. clone한 로컬 경로로 이동
+2. hugo new --kind post posts/파일명/index.md 로 파일 생성 
+3. index.md에 형식에 맞게 수정하면서 공부한거 정리 
+
+글 다 작성 한 후 git 명령어로 
 - git add content 
 - git commit -m "Post: 파일명 by <작성자ID>"
 - git push origin post/파일명
- 
 
-## 참고 링크
-https://lkmgit.github.io/ 
+로컬 환경에 hugo가 설치 되어 있지 않아 hugo 명령어가 안되면 
+content/posts 안에 폴더를 만들고 그 안에 index.md 파일 생성하고 작성
+
+
