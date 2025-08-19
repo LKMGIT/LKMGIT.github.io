@@ -2,7 +2,7 @@
 title: "글 작성 방법"
 date: "2025-08-19T10:00:00+09:00"
 draft: false            # 작성 중엔 true, 발행 전엔 false 로!
-authors: ["이경민"]  # 여러 명이면 ["작성자1","작성자2"]
+author: ["이경민"]  # 여러 명이면 ["작성자1","작성자2"]
 tags: ["Study"]  # 자유롭게
 categories: ["Devlog"]
 description: "git.io 글 작성 방법"
