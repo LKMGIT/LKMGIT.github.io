@@ -1,9 +1,9 @@
 ﻿---
-title: "2025 08 19 Til"
-date: 2025-08-19T10:28:43+09:00
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
 draft: true
 authors: ["lkm"]         # 기본 작성자
-tags: ["Study"]    # 기본 태그(원하면 수정)
+tags: ["TIL","Study"]    # 기본 태그(원하면 수정)
 categories: ["Devlog"]
 ShowToc: true
 TocOpen: false

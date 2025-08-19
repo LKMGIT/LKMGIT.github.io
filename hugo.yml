@@ -4,5 +4,38 @@ theme: ["PaperMod"]
 enableRobotsTXT: true
 defaultContentLanguage: ko
 timeZone: Asia/Seoul
+
+# 검색용(홈에서 JSON 색인 생성)
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+
+# 작성자 taxonomy 추가
+taxonomies:
+  tag: tags
+  category: categories
+  author: authors
+
 params:
+  # 목록에 표시할 섹션
   mainSections: ["posts"]
+  # 편의 옵션(원하면 꺼도 됨)
+  defaultTheme: auto
+  showReadingTime: false
+  showPostNavLinks: false
+  ShowShareButtons: false
+
+# 상단 메뉴에 Authors/Search 추가
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Posts
+      url: /posts/
+      weight: 2
+    - name: Authors
+      url: /authors/
+      weight: 3
+    - name: Search
+      url: /search/
+      weight: 4

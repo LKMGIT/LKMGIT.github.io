@@ -1,0 +1,8 @@
+﻿baseURL: "https://lkmgit.github.io/"
+title: "LKM Blog"
+theme: ["PaperMod"]
+enableRobotsTXT: true
+defaultContentLanguage: ko
+timeZone: Asia/Seoul
+params:
+  mainSections: ["posts"]
