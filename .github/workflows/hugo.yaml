@@ -34,16 +34,16 @@ jobs:
         run: |
           pwd
           ls -la
-          ls -la config/_default || true
+          ls -la config || true
+          test -f hugo.yml && echo "FOUND hugo.yml"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Build site
         run: |
-          hugo --gc --minify \
-               --baseURL "https://lkmgit.github.io/" \
-               --config "config/_default/config.yml"
+          # 루트의 hugo.yml을 Hugo가 자동 감지합니다.
+          hugo --gc --minify --baseURL "https://lkmgit.github.io/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
