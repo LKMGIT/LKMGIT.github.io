@@ -16,6 +16,7 @@ taxonomies:
   author: authors
 
 params:
+  disableSpecial1stPost: true
   # 목록에 표시할 섹션
   mainSections: ["posts"]
   # 편의 옵션(원하면 꺼도 됨)
