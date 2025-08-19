@@ -6,28 +6,6 @@
     <description>Recent content on LKM Blog</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>ko</language>
-    <lastBuildDate>Tue, 19 Aug 2025 09:47:33 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Tue, 19 Aug 2025 09:47:33 +0900</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/post/hello-world/</link>
-      <pubDate>Tue, 19 Aug 2025 09:16:08 +0900</pubDate>
-      <guid>http://localhost:1313/post/hello-world/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>첫 포스트 제목</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Tue, 19 Aug 2025 09:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;여기에 본문을 쓰세요.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

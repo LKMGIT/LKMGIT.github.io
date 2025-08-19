@@ -6,14 +6,6 @@
     <description>Recent content in Categories on LKM Blog</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>ko</language>
-    <lastBuildDate>Tue, 19 Aug 2025 09:00:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Devlog</title>
-      <link>http://localhost:1313/categories/devlog/</link>
-      <pubDate>Tue, 19 Aug 2025 09:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/categories/devlog/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
