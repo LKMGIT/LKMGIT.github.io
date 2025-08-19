@@ -5,7 +5,7 @@ draft: false
 description: ""
 tags: ["Hugo","PaperMod"]
 categories: ["Devlog"]
-ShowToc: true
+ShowToc: false
 TocOpen: false
 ---
 여기에 본문을 쓰세요.
