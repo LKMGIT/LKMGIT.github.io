@@ -2,7 +2,7 @@
 
 on:
   push:
-    branches: [ "root" ]
+    branches: ["root"]
   workflow_dispatch:
 
 permissions:
@@ -18,45 +18,31 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v5
+      - uses: actions/checkout@v5
         with:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      - uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.148.2"
           extended: true
 
-      - name: List files (debug)
-        run: |
-          pwd
-          ls -la
-          ls -la config || true
-          test -f hugo.yml && echo "FOUND hugo.yml"
+      - uses: actions/configure-pages@v5
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+      - name: Build
+        run: hugo --gc --minify --cleanDestinationDir --baseURL "https://lkmgit.github.io/"
 
-      - name: Build site
-        run: |
-          # 루트의 hugo.yml을 Hugo가 자동 감지합니다.
-          hugo --gc --minify --cleanDestinationDir \
-         --baseURL "https://lkmgit.github.io/"
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
   deploy:
+    runs-on: ubuntu-latest
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
