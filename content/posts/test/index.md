@@ -50,3 +50,4 @@ cover:
 - git add .
 - git commit -m "Post: 파일명 by <작성자 ID>"
 - git push -u origin post/파일명
+..
