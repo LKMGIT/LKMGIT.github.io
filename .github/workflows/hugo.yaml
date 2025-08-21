@@ -2,7 +2,7 @@
 
 on:
   push:
-    branches: ["root"]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
