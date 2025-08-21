@@ -13,7 +13,6 @@ cover:
   alt: ""
   relative: true
 ---
-요약 문단
 <!--more-->
 ## 글 작성 방법
 
