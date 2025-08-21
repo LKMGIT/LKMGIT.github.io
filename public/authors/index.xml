@@ -6,21 +6,6 @@
     <description>Recent content in Authors on LKM Blog</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>ko</language>
-    <lastBuildDate>Tue, 19 Aug 2025 11:46:31 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>작성자ID</title>
-      <link>http://localhost:1313/authors/%EC%9E%91%EC%84%B1%EC%9E%90id/</link>
-      <pubDate>Tue, 19 Aug 2025 11:46:31 +0900</pubDate>
-      <guid>http://localhost:1313/authors/%EC%9E%91%EC%84%B1%EC%9E%90id/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>이경민</title>
-      <link>http://localhost:1313/authors/%EC%9D%B4%EA%B2%BD%EB%AF%BC/</link>
-      <pubDate>Tue, 19 Aug 2025 10:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/authors/%EC%9D%B4%EA%B2%BD%EB%AF%BC/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

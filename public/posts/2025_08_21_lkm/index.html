@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>이경민 | LKM Blog</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/authors/%EC%9D%B4%EA%B2%BD%EB%AF%BC/">
+<title>Git.io 글 작성 방법 | LKM Blog</title>
+<meta name="keywords" content="Study">
+<meta name="description" content="Git.io 글 작성 방법">
+<meta name="author" content="이경민">
+<link rel="canonical" href="http://localhost:1313/posts/2025_08_21_lkm/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/authors/%EC%9D%B4%EA%B2%BD%EB%AF%BC/index.xml">
-<link rel="alternate" hreflang="ko" href="http://localhost:1313/authors/%EC%9D%B4%EA%B2%BD%EB%AF%BC/">
+<link rel="alternate" hreflang="ko" href="http://localhost:1313/posts/2025_08_21_lkm/">
 <noscript>
     <style>
         #theme-toggle,
@@ -59,7 +58,7 @@
 </noscript>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -117,24 +116,100 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    이경민
-  </h1>
-</header>
+<main class="main">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Git.io 글 작성 방법
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>요약 문단
-...</p>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Git.io 글 작성 방법
+    </h1>
+    <div class="post-description">
+      Git.io 글 작성 방법
+    </div>
+    <div class="post-meta"><span title='2025-08-21 10:00:00 +0900 KST'>8월 21, 2025</span>&nbsp;·&nbsp;이경민
+
+</div>
+  </header> 
+  <div class="post-content"><p>요약 문단</p>
+<h2 id="글-작성-방법">글 작성 방법<a hidden class="anchor" aria-hidden="true" href="#글-작성-방법">#</a></h2>
+<h3 id="로컬-환경에-hugo가-설치-되어-있지-않은-경우">로컬 환경에 hugo가 설치 되어 있지 않은 경우<a hidden class="anchor" aria-hidden="true" href="#로컬-환경에-hugo가-설치-되어-있지-않은-경우">#</a></h3>
+<ol>
+<li>winget이 있는지 확인 (없는 경우 Microsoft Store에서 &ldquo;App Installer&quot;설치 후 다시 실행)</li>
+</ol>
+<ul>
+<li>winget -v</li>
+</ul>
+<ol start="2">
+<li>Hugo Extended 설치</li>
+</ol>
+<ul>
+<li>winget install &ndash;id Hugo.Hugo.Extended -e</li>
+</ul>
+<ol start="3">
+<li>설치 확인</li>
+</ol>
+<ul>
+<li>hugo version</li>
+</ul>
+<h3 id="git-clone-후-최신화-및-branch-생성">Git clone 후 최신화 및 Branch 생성<a hidden class="anchor" aria-hidden="true" href="#git-clone-후-최신화-및-branch-생성">#</a></h3>
+<ol>
+<li>원격 레포를 로컬 공간에 클론</li>
+</ol>
+<ul>
+<li>git clone <a href="https://github.com/LKMGIT/LKMGIT.github.io.git">https://github.com/LKMGIT/LKMGIT.github.io.git</a>
+<img alt="git clone 결과 화면" loading="lazy" src="/posts/2025_08_21_lkm/git.png"></li>
+</ul>
+<ol start="2">
+<li>작업 공간 최신화 확인</li>
+</ol>
+<ul>
+<li>git fetch origin</li>
+<li>git rebase origin/root (fetch 했는데 로컬과 다른 파일이 있다면 진행)</li>
+<li>git pull -ff-only ( 위에 rebase 가 안되면 해보기)</li>
+</ul>
+<ol start="3">
+<li>새 branch 생성</li>
+</ol>
+<ul>
+<li>git checkout -b post/파일명</li>
+</ul>
+<h3 id="글-작성-하기">글 작성 하기<a hidden class="anchor" aria-hidden="true" href="#글-작성-하기">#</a></h3>
+<ol>
+<li>index.md 파일 생성하기</li>
+</ol>
+<ul>
+<li>hugo new &ndash;kind post posts/파일명/index.md (폴더 위치는 C:\Users\LKM\Git.io\LKMGIT.github.io\content\posts 안에 있음)
+<img alt="index.md위치" loading="lazy" src="/posts/2025_08_21_lkm/local.png"></li>
+</ul>
+<ol start="2">
+<li>파일 형식 보면서 글 쓰기 (글 구성은 수정가능)</li>
+</ol>
+<h3 id="글-작성-후-pr">글 작성 후 PR<a hidden class="anchor" aria-hidden="true" href="#글-작성-후-pr">#</a></h3>
+<p>*** 반드시 PR을 하기 전 fetch를 진행 ***</p>
+<ol>
+<li>로컬에서 미리보기</li>
+</ol>
+<ul>
+<li>hugo server -D (로컬에서 서버 열어서 자기가 쓴 글 확인하고 이상한 부분 있으면 수정 로컬 켜놓고 작업하면 바로바로 보기 좋습니다)
+<img alt="hugo서버열기" loading="lazy" src="/posts/2025_08_21_lkm/hugoserver.png"></li>
+</ul>
+<ol start="2">
+<li>로컬에서 확인이 끝나고 PR 하는 방법</li>
+</ol>
+<ul>
+<li>git add .</li>
+<li>git commit -m &ldquo;Post: 파일명 by &lt;작성자 ID&gt;&rdquo;</li>
+<li>git push -u origin post/파일명</li>
+</ul>
+
   </div>
-  <footer class="entry-footer"><span title='2025-08-21 10:00:00 +0900 KST'>8월 21, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to Git.io 글 작성 방법" href="http://localhost:1313/posts/2025_08_21_lkm/"></a>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/study/">Study</a></li>
+    </ul>
+  </footer>
 </article>
     </main>
     
