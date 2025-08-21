@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Study on LKM Blog</title>
     <link>http://localhost:1313/tags/study/</link>
     <description>Recent content in Study on LKM Blog</description>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo</generator>
     <language>ko</language>
     <lastBuildDate>Thu, 21 Aug 2025 10:00:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/study/index.xml" rel="self" type="application/rss+xml" />
@@ -13,13 +13,6 @@
       <link>http://localhost:1313/posts/2025_08_21_lkm/</link>
       <pubDate>Thu, 21 Aug 2025 10:00:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/2025_08_21_lkm/</guid>
-      <description>Git.io 글 작성 방법</description>
-    </item>
-    <item>
-      <title>Git.io 글 작성 방법</title>
-      <link>http://localhost:1313/posts/test/</link>
-      <pubDate>Thu, 21 Aug 2025 10:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
       <description></description>
     </item>
   </channel>
