@@ -1,11 +1,11 @@
 ---
-title: "2025_08_22_PYH 테스트"
+title: "2025_08_22_PYH 테스트2"
 date : "2025-08-22T16:47:38+09:00"
 draft : false
 author: ["박용헌"]     
 tags: ["Test"]     # 자유롭게
 categories: ["Test"]
-description: "Git.io 글 테스트"
+description: "Git.io 업로드 테스트"
 ShowToc: false
 TocOpen: false
 cover:
@@ -14,3 +14,4 @@ cover:
   relative: true
 ---
 ## 테스트 입니다.
+1. 글 업로드 하는 방법 숙지 중입니다.
