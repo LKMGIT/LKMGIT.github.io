@@ -6,8 +6,15 @@
     <description>Recent content in Posts on LKM Blog</description>
     <generator>Hugo</generator>
     <language>ko</language>
-    <lastBuildDate>Thu, 21 Aug 2025 10:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 22 Aug 2025 16:47:38 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025_08_22_PYH 테스트</title>
+      <link>http://localhost:1313/posts/2025_08_22_pyh/</link>
+      <pubDate>Fri, 22 Aug 2025 16:47:38 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2025_08_22_pyh/</guid>
+      <description>&lt;h2 id=&#34;테스트-입니다&#34;&gt;테스트 입니다.&lt;/h2&gt;</description>
+    </item>
     <item>
       <title>Git.io 글 작성 방법</title>
       <link>http://localhost:1313/posts/2025_08_21_lkm/</link>
