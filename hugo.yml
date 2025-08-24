@@ -4,6 +4,7 @@ theme: ["PaperMod"]
 enableRobotsTXT: true
 defaultContentLanguage: ko
 timeZone: Asia/Seoul
+buildFuture: true
 
 # 검색용(홈에서 JSON 색인 생성)
 outputs:
