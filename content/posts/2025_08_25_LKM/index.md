@@ -1,6 +1,10 @@
 ---
 title: "복습 정리"
+<<<<<<< HEAD
 date: "2025-08-25T00:00:00+09:00"   
+=======
+date: "2025-08-25T00:00:00+09:00"
+>>>>>>> a48a48d3fceb4a5dda415debc0eb8003717dbf82
 draft: false              
 author: ["이경민"]     
 tags: ["Study"]     # 자유롭게
