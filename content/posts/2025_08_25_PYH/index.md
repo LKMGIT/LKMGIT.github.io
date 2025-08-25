@@ -2,14 +2,19 @@
 title: "복습 정리"
 date: "2025-08-25T00:00:00+09:00"   
 draft: false              
-author: ["박용헌"]     
-tags: ["Study"]     # 자유롭게
+author: ["박용헌"]
+tags: ["Study"]
+date: "2025-08-25T00:00:00+09:00"
+draft: false
+author: ["박용헌"]
+tags: ["Study"]
 categories: ["Devlog"]
 description: "복습 정리"
 ShowToc: false
 TocOpen: false
 cover:
-  image: ""               # 같은 폴더에 이미지 두고 파일명만 적기(예: cover.jpg)
+  image: "" 
+  image: ""
   alt: ""
   relative: true
 ---
