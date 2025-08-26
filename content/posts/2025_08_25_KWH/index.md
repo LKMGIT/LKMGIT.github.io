@@ -1,6 +1,6 @@
 ---
 title: "복습정리"
-date: "2025-08-26T11:00:00+09:00"
+date: "2025-08-25T11:00:00+09:00"
 draft: false              
 author: ["강우혁"]     
 tags: ["Study"]     # 자유롭게
@@ -28,9 +28,12 @@ cover:
 - 문자 입출력 스트림의 최상위 클래스는 Reader와 Writer이다,
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> post/woo
+=======
+>>>>>>> fa08ce4de535cc8ccc2c4b4df2a4565ba51d4d0d
 ### 2. 바이트 입출력 스트림
 
 - **최상위 클래스**:
@@ -57,4 +60,9 @@ cover:
 
 - **버퍼 스트림**: 속도 향상 (`BufferedReader`, `BufferedWriter`)
 - **문자 변환 스트림**: `InputStreamReader`, `OutputStreamWriter` (바이트 ↔ 문자 변환)
+<<<<<<< HEAD
 ---
+=======
+
+---
+>>>>>>> fa08ce4de535cc8ccc2c4b4df2a4565ba51d4d0d
