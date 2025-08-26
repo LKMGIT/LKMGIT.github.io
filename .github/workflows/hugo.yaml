@@ -2,7 +2,7 @@
 
 on:
   push:
-    branches: ["root"]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -31,7 +31,7 @@ jobs:
       - uses: actions/configure-pages@v5
 
       - name: Build
-        run: hugo --gc --minify --cleanDestinationDir --baseURL "https://lkmgit.github.io/"
+        run: hugo --gc --minify --cleanDestinationDir --buildFuture
 
       - uses: actions/upload-pages-artifact@v3
         with:
