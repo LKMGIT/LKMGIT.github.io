@@ -60,9 +60,3 @@ cover:
 
 - **버퍼 스트림**: 속도 향상 (`BufferedReader`, `BufferedWriter`)
 - **문자 변환 스트림**: `InputStreamReader`, `OutputStreamWriter` (바이트 ↔ 문자 변환)
-<<<<<<< HEAD
----
-=======
-
----
->>>>>>> fa08ce4de535cc8ccc2c4b4df2a4565ba51d4d0d

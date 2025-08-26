@@ -42,4 +42,4 @@ cover:
     
 JSONObject 클래스 : JSON 객체 표기를 생성하거나 파싱할 때 사용
     
-JSONArray클래스 : JSON 배열 표기 생성하거나 파싱할 떄 사용
+JSONArray클래스 : JSON 배열 표기 생성하거나 파싱할 때 사용
