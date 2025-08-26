@@ -16,7 +16,7 @@ cover:
 <!--more-->
 ## 정리
 
-### 데이터 입출력
+## 데이터 입출력
 
 ### 1. 입출력 스트림의 개념
 
@@ -58,4 +58,4 @@ cover:
 - **버퍼 스트림**: 속도 향상 (`BufferedReader`, `BufferedWriter`)
 - **문자 변환 스트림**: `InputStreamReader`, `OutputStreamWriter` (바이트 ↔ 문자 변환)
 
----
+--- 
