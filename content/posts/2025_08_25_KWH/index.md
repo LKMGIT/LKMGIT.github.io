@@ -27,7 +27,6 @@ cover:
 - 바이트의 입출력 스트림의 최상위 클래스는 InputStream과 OutputStream이다.
 - 문자 입출력 스트림의 최상위 클래스는 Reader와 Writer이다,
 ---
-
 ### 2. 바이트 입출력 스트림
 
 - **최상위 클래스**:
