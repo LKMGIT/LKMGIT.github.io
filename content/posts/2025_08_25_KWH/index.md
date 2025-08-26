@@ -27,7 +27,6 @@ cover:
 - 바이트의 입출력 스트림의 최상위 클래스는 InputStream과 OutputStream이다.
 - 문자 입출력 스트림의 최상위 클래스는 Reader와 Writer이다,
 ---
-
 ### 2. 바이트 입출력 스트림
 
 - **최상위 클래스**:
@@ -44,18 +43,14 @@ cover:
     - 출력: `Writer`
 - 문자 데이터 전용 처리.
 ---
-
 ### 4. 보조 스트림
 
 - 다른 스트림에 연결해서 기능 보완.
 - 예: `BufferedInputStream`, `InputStreamReader`, `PrintWriter` 등.
 - 스트림 체인 가능: `new BufferedReader(new InputStreamReader(System.in))`
-
 ---
-
 ### 5. 성능/변환 스트림
 
 - **버퍼 스트림**: 속도 향상 (`BufferedReader`, `BufferedWriter`)
 - **문자 변환 스트림**: `InputStreamReader`, `OutputStreamWriter` (바이트 ↔ 문자 변환)
-
---- 
+---
