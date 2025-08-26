@@ -1,11 +1,11 @@
 ---
-title: "Git.io 글 작성 방법"
-date: "2025-08-21T10:00:00+09:00"
+title: "복습정리"
+date: "2025-08-26T11:00:00+09:00"
 draft: false              
 author: ["강우혁"]     
 tags: ["Study"]     # 자유롭게
 categories: ["Devlog"]
-description: "Git.io 글 작성 방법"
+description: "복습정리"
 ShowToc: false
 TocOpen: false
 cover:
