@@ -61,3 +61,4 @@ implements Serializable 을 클래스에 해주어야 해당 클래스를 직렬
 객체를 문자열로 변환
 2. JSON.parse(arg)
 문자열을 객체로 변환
+
