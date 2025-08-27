@@ -6,20 +6,41 @@
     <description>Recent content in Study on LKM Blog</description>
     <generator>Hugo</generator>
     <language>ko</language>
-    <lastBuildDate>Mon, 25 Aug 2025 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 17:00:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/study/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>복습정리</title>
+      <link>http://localhost:1313/posts/2025_08_26_kwh/</link>
+      <pubDate>Wed, 26 Aug 2026 17:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2025_08_26_kwh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>0826 데일리 스크럼</title>
+      <link>http://localhost:1313/posts/2025_08_26_pyh/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2025_08_26_pyh/</guid>
+      <description>&lt;h2 id=&#34;21일차-배운거-복습&#34;&gt;21일차 배운거 복습&lt;/h2&gt;&#xA;&lt;h4 id=&#34;직렬화와-역-직렬화&#34;&gt;직렬화와 역 직렬화&lt;/h4&gt;&#xA;&lt;p&gt;직렬화 : 메모리에 생성된 객체를 파일 또는 네트워크로 출력하기 위해 필드값을 일렬로 늘어선 바이트로 변경하는 것&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;objectOutputStream : 바이트 출력 스트림과 연결되어 객체를 직렬화&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;역직렬화 : 직렬화된 바이트를 객체의 필드값으로 복원하는 것&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;objectInputStream : 바이트 입력 스트림과 연결되어 객체로 복원하는 역직렬화&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;일상-예시를-사용한-직렬화와-역직렬화의-예시&#34;&gt;일상 예시를 사용한 직렬화와 역직렬화의 예시&lt;/h2&gt;&#xA;&lt;p&gt;물건을 택배로 보내기 위해 상자에 포장해서 보내는 과정 -&amp;gt; 상자에 포장이 (바이트 스트림으로 변환) 이다.&#xA;택배 상자(바이트 스트림)가 집에 도착하면 상자를 열어서 원래 물건을 꺼내는 과정 상자에서 물건을 꺼내는 것이 (객체로 변환) 이다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>복습정리</title>
+      <link>http://localhost:1313/posts/2025_08_25_kwh/</link>
+      <pubDate>Mon, 25 Aug 2025 11:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2025_08_25_kwh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>0825 데일리 스크럼</title>
+      <link>http://localhost:1313/posts/2025_08_25_pyh/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2025_08_25_pyh/</guid>
+      <description></description>
+    </item>
     <item>
       <title>복습 정리</title>
       <link>http://localhost:1313/posts/2025_08_25_lkm/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/2025_08_25_lkm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>복습 정리</title>
-      <link>http://localhost:1313/posts/2025_08_25_pyh/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2025_08_25_pyh/</guid>
       <description></description>
     </item>
     <item>
