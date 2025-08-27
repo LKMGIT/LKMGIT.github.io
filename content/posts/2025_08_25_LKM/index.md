@@ -1,5 +1,5 @@
 ---
-title: "복습 정리"
+title: "제네렉 컬렉션 정리"
 date: "2025-08-25T00:00:00+09:00"   
 draft: false              
 author: ["이경민"]     
