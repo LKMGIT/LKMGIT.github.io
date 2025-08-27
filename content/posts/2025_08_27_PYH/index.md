@@ -3,7 +3,7 @@ title: "0827 데일리 스크럼"
 date: "2025-08-27T00:00:00+09:00"   
 draft: false              
 author: ["박용헌"]
-tags: ["PYH"]
+tags: ["Study"]
 categories: ["Devlog"]
 description: "복습 정리"
 ShowToc: false
