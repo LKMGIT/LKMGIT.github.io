@@ -6,12 +6,12 @@
     <description>Recent content in Categories on LKM Blog</description>
     <generator>Hugo</generator>
     <language>ko</language>
-    <lastBuildDate>Mon, 25 Aug 2025 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 17:00:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Devlog</title>
       <link>http://localhost:1313/categories/devlog/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0900</pubDate>
       <guid>http://localhost:1313/categories/devlog/</guid>
       <description></description>
     </item>
