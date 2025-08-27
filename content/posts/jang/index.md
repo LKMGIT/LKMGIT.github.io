@@ -1,7 +1,11 @@
 ﻿---
 title: "Jang"
 date: 2025-08-21T12:24:10+09:00
+post/jang
+draft: true
+
 draft: false
+ main
 authors: ["장현우ID"]   # 기본값, 각자 바꿔 쓰기
 tags: []
 categories: []
@@ -15,10 +19,17 @@ cover:
 ---
 여기에 오늘 공부한 내용 요약을 적으세요.
 # 직렬화
+ post/jang
+1. 직렬화 → 인스턴스에 파일에 쓰기  : **ObjectOutputStream** 
+- 자바안에서 사용되는 Object(객체) 또는 Data를 다른 장치 사용할 수 있도록 바이트스트림 형태로 연속적인 데이터로 변환하는 데이터 포멧변환 기술
+
+1. 역직렬화  **→ 파일에 쓴 거를 불러오는 거, 인스턴스를 복원하는 과정 : ObjectInputStream**
+
 1. 직렬화 → 인스턴스에 파일에 쓰기  : ObjectOutputStream
 - 자바안에서 사용되는 Object(객체) 또는 Data를 다른 장치 사용할 수 있도록 바이트스트림 형태로 연속적인 데이터로 변환하는 데이터 포멧변환 기술
 
 1. 역직렬화  파일에 쓴 거를 불러오는 거, 인스턴스를 복원하는 과정 : ObjectInputStream
+main
 - 바이트로 변환된 데이터를 원래대로 자바시스템의 Object 또는 Data로 변환하는 기술
 
 1. 바이트 스트림 
