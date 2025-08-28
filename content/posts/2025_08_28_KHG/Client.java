@@ -30,7 +30,7 @@ public class Client {
         ) {
             System.out.println("서버에 연결되었습니다. 닉네임 등록을 진행합니다.");
 
-            // ⭐ 서버로부터의 메시지 수신을 전담하는 스레드 시작
+            // 서버로부터의 메시지 수신을 전담하는 스레드 시작
             // 이 스레드는 서버 메시지를 받아 화면에 출력하는 역할만 수행
             Thread readerThread = new Thread(() -> {
                 try {
