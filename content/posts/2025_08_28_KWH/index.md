@@ -51,12 +51,9 @@ ex) windows, iOS, android, 리눅스, 유닉스
 
 종료 상태 : 실행 상태에서 run()메소드가 종료되어 실행할 코드 없이 실행을 멈춘 상태
 
-![image.png](attachment:5a6a847f-ed34-4708-9479-e74ec035f492:image.png)
 ---
 ### 스레드풀
 
 - FIFO 구조
 - 스레드풀 = 회사
 - 스레드 = 직원
-
-![image.png](attachment:84fb12b3-447c-49be-b675-37873fad6348:image.png)
