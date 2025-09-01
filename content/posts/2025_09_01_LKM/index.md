@@ -3,7 +3,7 @@ title: "데이터베이스 정리 중"
 date: "2025-09-01T10:00:00+09:00"
 draft: false              
 author: ["이경민"]     
-tags: ["Study"]     # 자유롭게
+tags: ["LKM"]     # 자유롭게
 categories: ["Devlog"]
 description: "데이터베이스 정리"
 ShowToc: false
