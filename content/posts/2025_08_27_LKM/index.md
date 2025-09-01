@@ -3,7 +3,7 @@ title: "멀티 챗 프로그램"
 date: "2025-08-29T14:00:00+09:00"
 draft: false              
 author: ["이경민"]     
-tags: ["Study"]     # 자유롭게
+tags: ["LKM"]     # 자유롭게
 categories: ["Devlog"]
 description: "멀티 챗 프로그램"
 ShowToc: false
