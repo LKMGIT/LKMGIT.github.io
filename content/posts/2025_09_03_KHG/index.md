@@ -1,6 +1,6 @@
 ---
 title: "MySQL"
-date: "2025-03-03T00:00:00+09:00"   
+date: "2025-09-03T00:00:00+09:00"   
 draft: false            
 author: ["김형근"]         
 tags: ["Study"]      # 자유롭게
