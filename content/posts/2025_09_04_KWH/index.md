@@ -49,6 +49,7 @@ cover:
 
 - primary key => not null(null 허용 안 함) + unique(유일값)
 - unique => null 허용 + 유일값
+- AUTO_INCREMENT는 pk 또는 unique 설정해야 만 한다.
 ---
 ### 4. CHECK 제약조건
 
