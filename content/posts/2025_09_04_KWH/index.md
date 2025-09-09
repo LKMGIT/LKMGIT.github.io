@@ -1,11 +1,11 @@
 ---
-title: "복습정리"
+title: "데이터베이스"
 date: "2026-09-04T16:00:00+09:00"
 draft: false              
 author: ["강우혁"]     
 tags: ["Study"]     # 자유롭게
 categories: ["Devlog"]
-description: "데이터베이스"
+description: "제약조건"
 ShowToc: false
 TocOpen: false
 cover:
@@ -49,6 +49,7 @@ cover:
 
 - primary key => not null(null 허용 안 함) + unique(유일값)
 - unique => null 허용 + 유일값
+- AUTO_INCREMENT는 pk 또는 unique 설정해야 만 한다.
 ---
 ### 4. CHECK 제약조건
 
